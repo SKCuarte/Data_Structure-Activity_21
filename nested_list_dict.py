@@ -61,10 +61,10 @@ products[2]["name"] = "IPHONE 16 PROMAX"
 
 
 #TODO ACCESS STOCK OF products[2]
-print(products[2]["stock"])
+print("The stock of product 3 is: ", products[2]["stock"])
 
 #TODO ACCESS INDEX 3(2) STOCK OF products[2]
-print(products[2]["stock"][1])
+print("The stock of product 3 index 2 is: ", products[2]["stock"][1])
 
 #TODO CHANGE black small quantity - products[2]
 products[2]["stock"][1]["black-small"] = 25
